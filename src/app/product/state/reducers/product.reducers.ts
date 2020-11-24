@@ -20,8 +20,8 @@ export function ProductReducer(state=initialState,action:ProductActions.Actions)
       return {
         //se genera una copia del estado anterior
         ...state,
-          products: action.payload.Data,
-          totalRecords: action.payload.TotalRecords
+          products: action.payload.data,
+          totalRecords: action.payload.totalRecords
       };
     default:
       return state;
