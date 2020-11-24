@@ -19,7 +19,7 @@ export class ProductListContainerComponent implements OnInit {
 
 
   ngOnInit(): void {
-    let request = new GetProduct(10,0);
+    let request = new GetProduct(10,10);
     this.store.dispatch(new productActions.LoadProducts(request));
   }
 

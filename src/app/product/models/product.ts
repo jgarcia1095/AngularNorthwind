@@ -1,9 +1,9 @@
 export class Product {
-  Id: number;
-  ProductCode: string;
-  ProductName: string;
-  Description: string;
-  StandardCost:number;
-  ListPrice:number;
-  Category:string;
+  id: number;
+  productCode: string;
+  productName: string;
+  description: string;
+  standardCost:number;
+  listPrice:number;
+  category:string;
 }
